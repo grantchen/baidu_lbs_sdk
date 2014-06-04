@@ -2,6 +2,21 @@
 
 This gem is a ruby wrapper for Baidu LBS API
 
+## Install
+
+Install baidu_lbs_sdk as a gem:
+
+```
+gem install baidu_lbs_sdk
+```
+
+or add to your Gemfile:
+
+```ruby
+# Gemfile
+gem 'baidu_lbs_sdk'
+```
+
 ## Usage
 
 ### Set ak
