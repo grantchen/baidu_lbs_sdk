@@ -4,7 +4,7 @@ This gem is a ruby wrapper for Baidu LBS API
 
 ## Usage
 
-### set ak
+### Set ak
 
 ```ruby
   BaiduLbsSdk::Config.ak = "G6EomGd9eFIRH*******"
