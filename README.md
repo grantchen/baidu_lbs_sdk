@@ -5,14 +5,16 @@
 ### set ak
 
 ```ruby
-  BaiduLbsSdk::Config.ak = "G6EomGd9eFIRHYjD6Nm18LUi"
+  BaiduLbsSdk::Config.ak = "G6EomGd9eFIRH*******"
 ```
 
 ### Web Service
 
 #### ip location
 
+```ruby
 BaiduLbsSdk::WebService.location_ip("220.181.111.85")
+```
 
 ## Contributing to baidu_lbs_sdk
  
