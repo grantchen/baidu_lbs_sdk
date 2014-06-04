@@ -1,6 +1,18 @@
 = baidu_lbs_sdk
 
-Description goes here.
+== Usage
+
+### set ak
+
+```ruby
+  BaiduLbsSdk::Config.ak = "G6EomGd9eFIRHYjD6Nm18LUi"
+```
+
+### Web Service
+
+#### ip location
+
+BaiduLbsSdk::WebService.location_ip("220.181.111.85")
 
 == Contributing to baidu_lbs_sdk
  
