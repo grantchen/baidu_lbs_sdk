@@ -1,5 +1,7 @@
 # baidu_lbs_sdk
 
+This gem is a ruby wrapper for Baidu LBS API
+
 ## Usage
 
 ### set ak
