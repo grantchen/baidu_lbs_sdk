@@ -12,7 +12,7 @@ module BaiduLbsSdk
         uri << "#{key}=#{value}&"
       end
       ip_json = Net::HTTP.get(URI(uri))
-      MultiJson.load(ip_json)
+      MultiJson.load(ip_json, :symbolize_keys => true)
     end
   end
 end
